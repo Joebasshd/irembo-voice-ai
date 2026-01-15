@@ -1,0 +1,43 @@
+{
+  "dataset_name": "voiceai_intent_dataset",
+  "rows": 700,
+  "splits": {
+    "train": 561,
+    "val": 70,
+    "test": 69
+  },
+  "intents": [
+    "check_application_status",
+    "start_new_application",
+    "requirements_information",
+    "fees_information",
+    "appointment_booking",
+    "payment_help",
+    "reset_password_login_help",
+    "speak_to_agent",
+    "cancel_or_reschedule_appointment",
+    "update_application_details",
+    "document_upload_help",
+    "service_eligibility",
+    "complaint_or_support_ticket"
+  ],
+  "columns": {
+    "utterance_id": "Unique identifier for the utterance.",
+    "timestamp": "Synthetic timestamp for when the utterance was recorded (ISO-8601).",
+    "channel": "Source channel (voice_call, whatsapp_voice_note, ivr, mobile_app_voice).",
+    "device_type": "Device category (android, ios, feature_phone, web).",
+    "region": "High-level region (Kigali, Northern, Western, Eastern, Southern).",
+    "language": "Language label: rw, en, or mixed.",
+    "utterance_text": "ASR transcript of the user utterance (contains realistic noise and code-switching).",
+    "asr_confidence": "Synthetic ASR confidence in [0,1].",
+    "duration_seconds": "Synthetic audio duration in seconds.",
+    "intent": "Target intent label (contains ~3% label noise for realism).",
+    "split": "Pre-defined split: train / val / test."
+  },
+  "notes": [
+    "This is a synthetic dataset intended for take-home assessments; it is not based on real citizen data.",
+    "Utterances include code-switching (Kinyarwanda/English/French terms), slang, and ASR-like noise.",
+    "Class distribution is mildly imbalanced to reflect real traffic patterns.",
+    "Label noise (~3%) is included to encourage robust evaluation and error analysis."
+  ]
+}

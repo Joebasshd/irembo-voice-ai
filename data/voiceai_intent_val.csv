@@ -1,0 +1,71 @@
+utterance_id,timestamp,channel,device_type,region,language,utterance_text,asr_confidence,duration_seconds,intent,split
+utt_00037,2025-10-08T19:45:00,voice_call,ios,Western,en,How do I begin an application for driving license?,0.972,2,payment_help,val
+utt_00184,2025-10-26T01:34:00,voice_call,android,Kigali,rw,Uburyo bwo kwishyura tax clearance ni ubuhe?,0.807,5,payment_help,val
+utt_00130,2025-12-08T16:41:00,mobile_app_voice,android,Northern,mixed,Nashaka gufata appointment ya ESIA i Muhanga.,0.695,5,appointment_booking,val
+utt_00551,2025-09-28T20:32:00,mobile_app_voice,web,Northern,mixed,Nishyuye but ntabwo byemejwe.,0.885,5,payment_help,val
+utt_00538,2025-10-17T20:13:00,whatsapp_voice_note,ios,Kigali,rw,Ndashaka booking yigihe kuri gusimbuza indangamuntu.,0.864,6,appointment_booking,val
+utt_00268,2025-10-24T02:37:00,whatsapp_voice_note,web,Northern,en,What are the requirements for visa on arrival?,0.815,6,requirements_information,val
+utt_00497,2025-12-22T23:08:00,ivr,ios,Kigali,rw,Ni nde wemerewe attestation y’imisoro?,0.812,5,service_eligibility,val
+utt_00113,2025-10-01T09:36:00,whatsapp_voice_note,feature_phone,Kigali,rw,Uburyo bwo kwishyura permis ni ubuhe?,0.847,10,payment_help,val
+utt_00318,2025-11-01T13:27:00,voice_call,ios,Eastern,mixed,Nishyuye but ntabwo byemejwe.,0.919,5,payment_help,val
+utt_00411,2025-10-15T01:48:00,mobile_app_voice,ios,Western,en,What are the eligibility rules for marriage certificate?,0.929,4,service_eligibility,val
+utt_00625,2025-10-20T11:55:00,ivr,feature_phone,Northern,en,I want to start a new application for marriage certificate.,0.783,7,start_new_application,val
+utt_00359,2025-12-20T10:23:00,ivr,feature_phone,Southern,en,Who can apply for passport?,0.701,6,service_eligibility,val
+utt_00225,2025-10-18T02:45:00,mobile_app_voice,ios,Western,rw,Ni iki ngomba kuzana kugira ngo nsabe visa yo kuza?,0.814,7,requirements_information,val
+utt_00665,2025-11-03T00:10:00,voice_call,android,Eastern,mixed,Ndashaka gukora new application ya business registration.,0.688,8,start_new_application,val
+utt_00348,2025-11-21T10:19:00,mobile_app_voice,ios,Western,rw,"OTP ntabwo igeze, mwamfasha?",0.72,4,reset_password_login_help,val
+utt_00658,2025-11-06T15:32:00,voice_call,ios,Northern,mixed,What documents nkeneye kuri ESIA?,0.815,3,requirements_information,val
+utt_00243,2025-12-18T20:06:00,voice_call,web,Eastern,en,I want to raise a complaint about visa on arrival.,0.77,6,complaint_or_support_ticket,val
+utt_00160,2025-10-26T17:36:00,ivr,android,Northern,rw,Nashaka gufata appointment kuri attestation y’imisoro i Huye.,0.866,5,appointment_booking,val
+utt_00541,2025-11-24T06:40:00,voice_call,feature_phone,Northern,mixed,Ni izihe requirements za business registration?,0.916,5,requirements_information,val
+utt_00171,2025-10-03T18:14:00,voice_call,web,Western,mixed,Eligibility ya birth certificate ni iyihe?,0.823,4,service_eligibility,val
+utt_00659,2025-10-26T16:07:00,mobile_app_voice,android,Eastern,mixed,What documents nkeneye kuri passport?,0.895,7,requirements_information,val
+utt_00096,2025-09-25T20:59:00,whatsapp_voice_note,feature_phone,Eastern,rw,Ni iki ngomba kuzana kugira ngo nsabe icyangombwa cy’ubutaka?,0.913,7,requirements_information,val
+utt_00564,2025-11-23T22:11:00,whatsapp_voice_note,web,Kigali,rw,Ni iki ngomba kuzana kugira ngo nsabe birth certificate?,0.878,7,requirements_information,val
+utt_00461,2025-10-22T06:19:00,ivr,feature_phone,Northern,mixed,Help me gutangira application ya driving license.,0.837,2,start_new_application,val
+utt_00554,2025-11-25T22:37:00,whatsapp_voice_note,web,Kigali,mixed,Nashaka gufata appointment ya tax clearance i Rwamagana.,0.718,8,appointment_booking,val
+utt_00613,2025-12-16T14:28:00,whatsapp_voice_note,android,Western,en,How much does driving license cost?,0.795,3,fees_information,val
+utt_00207,2025-12-15T09:57:00,voice_call,ios,Northern,mixed,Ni izihe requirements za tax clearance?,0.816,6,requirements_information,val
+utt_00591,2025-10-20T18:12:00,ivr,feature_phone,Eastern,en,How much does birth certificate cost?,0.816,3,fees_information,val
+utt_00218,2025-12-16T05:54:00,voice_call,web,Northern,rw,Amabwiriza yo gusaba visa on arrival ni ayahe?,0.742,8,requirements_information,val
+utt_00005,2025-11-14T21:56:00,ivr,ios,Eastern,rw,Nshaka kumenya ikiguzi cya business registration.,0.739,6,fees_information,val
+utt_00574,2025-12-21T17:31:00,whatsapp_voice_note,feature_phone,Kigali,en,I need help with a problem on visa on arrival.,0.969,3,complaint_or_support_ticket,val
+utt_00407,2025-12-09T20:24:00,mobile_app_voice,web,Northern,en,I need help with a problem on ESIA.,0.982,7,complaint_or_support_ticket,val
+utt_00048,2025-10-23T22:06:00,mobile_app_voice,android,Southern,rw,Ndashaka kumenya aho case igeze.,0.969,7,check_application_status,val
+utt_00033,2025-09-25T12:00:00,voice_call,web,Eastern,rw,Ndashaka kugaragaza ikibazo cyabaye kuri icyangombwa cy’ubutaka.,0.666,5,complaint_or_support_ticket,val
+utt_00201,2025-12-22T10:03:00,whatsapp_voice_note,web,Western,mixed,Mumpuze n'agent please.,0.831,8,speak_to_agent,val
+utt_00135,2025-11-28T09:52:00,whatsapp_voice_note,android,Northern,rw,Ndashaka gutangira gusaba icyemezo cy’amavuko.,0.977,6,start_new_application,val
+utt_00379,2025-12-09T08:08:00,voice_call,ios,Kigali,rw,Ndashaka kugaragaza ikibazo cyabaye kuri visa on arrival.,0.825,1,complaint_or_support_ticket,val
+utt_00289,2025-10-17T14:23:00,whatsapp_voice_note,web,Kigali,rw,Ndashaka kumenya aho application number igeze.,0.74,5,check_application_status,val
+utt_00419,2025-11-29T07:46:00,mobile_app_voice,web,Northern,mixed,Help me reset password yanjye.,0.849,3,reset_password_login_help,val
+utt_00392,2025-09-25T14:15:00,whatsapp_voice_note,ios,Southern,en,I submitted my application but I can't see the status.,0.825,4,check_application_status,val
+utt_00593,2025-12-21T18:10:00,whatsapp_voice_note,web,Eastern,mixed,Nkeneye update details za application number yanjye.,0.91,3,update_application_details,val
+utt_00499,2025-10-04T08:31:00,voice_call,ios,Eastern,mixed,I submitted request ariko status sinayibona.,0.786,6,check_application_status,val
+utt_00139,2025-10-10T16:20:00,voice_call,ios,Northern,en,Please tell me the payment amount for passport.,0.739,9,fees_information,val
+utt_00521,2025-10-16T03:33:00,mobile_app_voice,feature_phone,Kigali,rw,Natanze application number ariko sinzi aho igeze.,0.833,6,check_application_status,val
+utt_00065,2025-09-26T09:01:00,ivr,android,Eastern,en,I need to update my applicashon details.,0.936,7,update_application_details,val
+utt_00157,2025-12-18T22:41:00,voice_call,android,Northern,en,I want to start a new application for tax clearance.,0.808,6,start_new_application,val
+utt_00380,2025-10-22T22:19:00,voice_call,web,Kigali,rw,Ese icyemezo cy’amavuko bisaba amafaranga angahe?,0.723,7,fees_information,val
+utt_00188,2025-10-13T09:33:00,mobile_app_voice,web,Kigali,rw,Ndashaka kumenya aho application igeze.,0.604,5,check_application_status,val
+utt_00217,2025-12-22T03:05:00,ivr,ios,Western,en,Can you tell me the progress of my birth certificate application?,0.811,2,check_application_status,val
+utt_00338,2025-12-18T16:14:00,whatsapp_voice_note,ios,Southern,en,I need to update my application details.,0.921,6,update_application_details,val
+utt_00296,2025-12-03T07:45:00,ivr,feature_phone,Eastern,rw,Checka niba dossier yanjye yarangiye.,0.768,4,check_application_status,val
+utt_00252,2025-11-30T02:19:00,ivr,ios,Northern,en,The OTP is not coming through.,0.846,4,reset_password_login_help,val
+utt_00456,2025-10-21T05:33:00,mobile_app_voice,android,Kigali,mixed,Ndashaka gukora new application ya business registration.,0.895,7,start_new_application,val
+utt_00698,2025-10-30T08:51:00,mobile_app_voice,ios,Western,mixed,Ndashaka reschedule appointment yanjye ya ESIA.,0.799,6,cancel_or_reschedule_appointment,val
+utt_00270,2025-11-30T13:50:00,whatsapp_voice_note,feature_phone,Northern,rw,Ndashaka kuvugana numukozi.,0.704,1,speak_to_agent,val
+utt_00202,2025-10-04T08:07:00,mobile_app_voice,ios,Western,rw,"Nabonye ikibazo cyo kwinjira, password yibagiwe.",0.867,5,reset_password_login_help,val
+utt_00556,2025-11-12T22:19:00,voice_call,feature_phone,Eastern,en,How can I book a slot for birth certificate?,0.944,6,appointment_booking,val
+utt_00402,2025-10-09T01:24:00,whatsapp_voice_note,ios,Northern,rw,Nkeneye gukora applicashon nshya ya pasiporo.,0.915,7,start_new_application,val
+utt_00106,2025-10-11T20:53:00,ivr,web,Southern,rw,Ndashaka kureba status ya request yanjye.,0.846,4,check_application_status,val
+utt_00566,2025-11-30T19:57:00,mobile_app_voice,web,Kigali,mixed,"Ntabasha login, password yibagiwe.",0.888,8,reset_password_login_help,val
+utt_00035,2025-11-17T08:36:00,ivr,web,Western,rw,Ndashaka kumenya aho application number igeze.,0.805,6,check_application_status,val
+utt_00428,2025-10-25T22:07:00,voice_call,ios,Northern,rw,Nashaka guhindura amakuru muri case yanjye.,0.776,11,update_application_details,val
+utt_00367,2025-12-11T05:57:00,ivr,android,Kigali,mixed,Ndashaka kureba status ya aplication yanjye ya ID replacement.,0.917,8,check_application_status,val
+utt_00092,2025-12-16T16:24:00,whatsapp_voice_note,feature_phone,Kigali,rw,Nashaka kongera ifoto/scan kuri request.,0.886,7,document_upload_help,val
+utt_00565,2025-11-25T22:00:00,voice_call,ios,Eastern,rw,Ndashaka gusubika appointment yanjye.,0.884,7,cancel_or_reschedule_appointment,val
+utt_00346,2025-11-02T19:17:00,mobile_app_voice,android,Southern,en,Where is my application now?,0.87,7,check_application_status,val
+utt_00316,2025-12-07T13:01:00,voice_call,feature_phone,Kigali,mixed,How do I upload documents kuri business registration?,0.942,6,document_upload_help,val
+utt_00388,2025-12-20T11:07:00,ivr,web,Northern,rw,Ndashaka gusubika appointment yanjye.,0.774,1,cancel_or_reschedule_appointment,val
+utt_00695,2025-12-06T17:42:00,mobile_app_voice,web,Southern,en,Connect me to a human please.,0.814,6,speak_to_agent,val
+utt_00684,2025-12-02T19:38:00,whatsapp_voice_note,feature_phone,Kigali,en,I want to talk to an agent.,0.77,3,speak_to_agent,val
