@@ -20,14 +20,14 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Irembo MLOps Controller")
     subparsers = parser.add_subparsers(dest="mode", required=True, help="Select operation mode")
 
-    # --- MODE 1: AUGMENT ---
+    # MODE 1: AUGMENT
     parser_aug = subparsers.add_parser("augment", help="Run data augmentation/translation")
     parser_aug.add_argument("--input", type=str, default="data/raw_data.csv")
 
-    # --- MODE 2: AUDIT ---
+    # MODE 2: AUDIT
     parser_audit = subparsers.add_parser("audit", help="Run Data Clinic to find mislabels")
     
-    # --- MODE 3: PIPELINE ---
+    # MODE 3: PIPELINE
     parser_pipe = subparsers.add_parser("pipeline", help="Run Experiment -> Retrain -> Evaluate flow")
     parser_pipe.add_argument("--epochs", type=int, default=10, help="Epochs for training")
     parser_pipe.add_argument("--batch_size", type=int, default=16, help="Batch size")
@@ -48,17 +48,15 @@ def run_audit(args):
 def run_pipeline(args):
     logger.info("🚀 MODE: Full Production Pipeline")
     
-    # --- PHASE 1: EXPERIMENTATION ---
+    # PHASE 1: EXPERIMENTATION
     print("\n" + "="*40)
     print("PHASE 1: Hyperparameter Tuning (CV)")
     print("="*40)
     
-    # simulate the arguments needed for train.py
-    # This avoids rewriting train.py to handle different arg structures
     class TrainArgs:
         train_file = "data/augmented_train_set.csv"
         val_file = "data/voiceai_intent_val.csv"
-        output_dir = "models/temp_cv_model" # Temporary
+        output_dir = "models/temp_cv_model"
         run_cv = True
         epochs = 5
         batch_size = args.batch_size
@@ -70,16 +68,18 @@ def run_pipeline(args):
     
     # Run CV
     best_params, history = train.run_cross_validation(full_df, le, tokenizer, TrainArgs)
+
+    assert best_params is not None
     
     print("\n" + "-"*40)
-    print(f"🏆 BEST CONFIGURATION FOUND:")
+    print(f" BEST CONFIGURATION FOUND:")
     print(f"   Learning Rate: {best_params['learning_rate']}")
     print(f"   LoRA Rank (r): {best_params['r']}")
     print(f"   F1 Score:      {best_params['mean_f1']:.4f}")
     print("-"*40)
 
     # --- INTERACTIVE GATE ---
-    user_input = input("\n❓ Do you want to retrain the Final Model with these params? [Y/n] ")
+    user_input = input("\n Do you want to retrain the Final Model with these params? [Y/n] ")
     if user_input.lower() not in ["y", "yes", ""]:
         print("❌ Pipeline aborted by user.")
         return
@@ -112,7 +112,7 @@ def run_pipeline(args):
     # --- PHASE 4: HANDOFF ---
     print("\n✅ PIPELINE COMPLETE.")
     print("To start the inference API, run this command:")
-    print("👉 uvicorn src.inference:app --reload")
+    print("uvicorn src.inference:app --reload")
 
 def main():
     args = parse_args()
