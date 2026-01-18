@@ -1,0 +1,5 @@
+utterance_id,timestamp,channel,device_type,region,language,utterance_text,asr_confidence,duration_seconds,intent,split,label,predicted_intent,actual_intent
+utt_00081,2025-10-09T13:49:00,mobile_app_voice,web,Western,rw,Ntabasha kwinjira muri account yanjye.,0.935,2,payment_help,test,6,reset_password_login_help,payment_help
+utt_00647,2025-12-05T10:41:00,ivr,web,Kigali,rw,Nkeneye gukora aplication nshya ya attestation y’imisoro.,0.874,3,start_new_application,test,11,appointment_booking,start_new_application
+utt_00561,2025-12-23T18:42:00,ivr,feature_phone,Northern,en,Can I speak to customer support?,0.798,6,speak_to_agent,test,10,requirements_information,speak_to_agent
+utt_00021,2025-12-08T18:51:00,whatsapp_voice_note,android,Western,en,What are the eligibility rules for driving license?,0.889,4,service_eligibility,test,9,check_application_status,service_eligibility
