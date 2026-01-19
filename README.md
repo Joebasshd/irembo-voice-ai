@@ -79,7 +79,7 @@ python -m src.main audit
 
 ```
 
-### 4. Interactive Inference API
+#### 4. Interactive Inference API
 
 Launches the FastAPI server for real-time testing.
 
