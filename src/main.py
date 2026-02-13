@@ -46,7 +46,7 @@ def run_audit(args):
     data_clinic.main() 
 
 def run_pipeline(args):
-    logger.info("🚀 MODE: Full Production Pipeline")
+    logger.info("MODE: Full Production Pipeline")
     
     # PHASE 1: EXPERIMENTATION
     print("\n" + "="*40)
